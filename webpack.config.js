@@ -10,13 +10,14 @@ module.exports = {
   },
   resolve: {
     alias: {
-      stylekit: path.join(__dirname, 'src')
-    }
+      rescuks: path.join(__dirname, 'src')
+    },
+    extensions: ['.ts', '.js']
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /(\.js|\.ts)$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
       }

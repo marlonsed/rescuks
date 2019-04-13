@@ -1,5 +1,5 @@
 import React from 'react';
-import { H1 } from 'stylekit'
+import { H1 } from 'rescuks'
 
 const App = () =>
   <div>

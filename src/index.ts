@@ -1,2 +1,2 @@
-export { H1 } from './components/typography'
-export { default as Button } from './components/button'
+export { H1 } from './content/typography'
+export { default as Button } from './elements/button'

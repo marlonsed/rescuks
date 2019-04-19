@@ -4,7 +4,7 @@ React Styled Components UI kit skeleton
 
 Clone this repo and add your own styles for your next awesome project.
 
-## Instructions
+## Installation
 
 To install all dependencies run:
 
@@ -17,6 +17,29 @@ Star development environment with webpack:
 Production build:
 
 `$ yarn dist`
+
+## Structure
+
+### Components folder
+
+All components that are composed with html elements, like cards, modal, alerts, etc.
+
+### Content
+
+Typography, tables and maybe colors.
+
+### Elements
+
+Styled Html elements, like buttons, input, forms ... 
+
+### Layout
+
+Like containers, sections and columns
+
+### Utilities
+
+Other stuff to help us add style, like mixins, calc function ...
+
 
 
 

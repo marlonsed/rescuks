@@ -10,7 +10,7 @@ To install all dependencies run:
 
 `$ yarn install`
 
-Star development environment with webpack:
+Start development environment with webpack:
 
 `$ yarn start`
 

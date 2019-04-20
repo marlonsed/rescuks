@@ -26,7 +26,7 @@ All components that are composed with html elements, like cards, modal, alerts, 
 
 ### Content
 
-Typography, tables and maybe colors.
+...
 
 ### Elements
 

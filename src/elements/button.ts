@@ -5,7 +5,7 @@ interface ButtonProps {
   rounded?: boolean;
 }
 
-export default styled.button<ButtonProps>`
+export const Button = styled.button<ButtonProps>`
   && {
     background: ${props => props.outline ? "white" : "palevioletred"};
     color: ${props => props.outline ? "palevioletred" : "white"};

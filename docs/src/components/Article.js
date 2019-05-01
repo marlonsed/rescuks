@@ -1,8 +1,9 @@
-import React from 'react';
+import React from 'react'
+
 import { H1, H2, H3, H4, H5, H6, Button } from 'rescuks/elements'
 
-const App = () =>
-  <div>
+const Article = () =>
+  <article>
     <H1>Hello World</H1>
     <H2>Hello World</H2>
     <H3>Hello World</H3>
@@ -13,6 +14,6 @@ const App = () =>
     <Button outline>Button Outline</Button>
     <Button rounded>Button Normal Rounded</Button>
     <Button outline rounded>Button Outline Rounded</Button>
-  </div>
+  </article>
 
-export default App
+export default Article

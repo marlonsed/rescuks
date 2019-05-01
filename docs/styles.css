@@ -1,0 +1,8 @@
+main {
+  display: flex;
+  align-items: flex-start;
+}
+
+header {
+  border-bottom: 1px solid #777777;
+}
